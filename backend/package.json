@@ -1,0 +1,27 @@
+{
+    "name": "meriawaaaz-api",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "start": "node main.js",
+        "dev": "node --watch-path=main.js --watch-path=app.js --watch-path=routes --watch-path=db --watch-path=services --watch-path=middleware main.js"
+    },
+    "dependencies": {
+        "@clerk/clerk-sdk-node": "^4.13.23",
+        "axios": "^1.13.6",
+        "bcryptjs": "^2.4.3",
+        "cookie-parser": "^1.4.7",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "express-mongo-sanitize": "^2.2.0",
+        "express-rate-limit": "^8.5.2",
+        "form-data": "^4.0.0",
+        "helmet": "^8.2.0",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^9.2.4",
+        "multer": "^1.4.5-lts.1",
+        "uuid": "^9.0.1",
+        "xss-clean": "^0.1.4"
+    }
+}

@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  cloudbox-backend:
+    build: .
+    container_name: cloudbox-backend
+    restart: always
+    ports:
+      - "127.0.0.1:3004:3004"
+    env_file:
+      - .env
+    volumes:
+      - ./uploads:/usr/src/app/uploads
+      - /tmp:/tmp

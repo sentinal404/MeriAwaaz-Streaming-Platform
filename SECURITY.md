@@ -34,10 +34,10 @@ Please report the following categories exclusively through **GitHub Private Vuln
 - **Sensitive Data Exposure**: Unauthorized access to private user profiles or guest leakage
 
 #### How to Submit:
-1. Navigate to the repository's **[Security Advisories](https://github.com/sentinal404/Meri-awaaz-News-Portal/security/advisories/new)** tab.
+1. Navigate to the repository's **[Security Advisories](https://github.com/sentinal404/MeriAwaaz-Streaming-Platform/security/advisories/new)** tab.
 2. Click **"Report a vulnerability"** to submit a confidential report.
 3. Provide a clear description, proof of concept (PoC) or reproduction steps, and the affected version/environment.
-4. If GitHub Private Reporting is temporarily unavailable, you may contact the maintainer directly at: `sentinal404@users.noreply.github.com` with the subject line `[SECURITY] Meri Awaaz Vulnerability Report`.
+4. For urgent coordination, you can connect directly with the maintainer via **[LinkedIn](https://www.linkedin.com/in/rishishakya)** or **[GitHub Profile](https://github.com/sentinal404)**.
 
 ---
 
@@ -50,7 +50,7 @@ If you encounter general software bugs, UI glitches, or performance issues that 
 - Notification counter sync or profile avatar render issues
 - Feature suggestions, design critiques, and documentation improvements
 
-:link: **Submit public bugs here:** [Open GitHub Issue](https://github.com/sentinal404/Meri-awaaz-News-Portal/issues/new)
+:link: **Submit public bugs here:** [Open GitHub Issue](https://github.com/sentinal404/MeriAwaaz-Streaming-Platform/issues/new)
 
 ---
 

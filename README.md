@@ -1,10 +1,11 @@
 <div align="center">
 
-# 🎙️ Meri Awaaz (मेरी आवाज़)
-### Next-Gen Community Journalism, Viral Video Streaming & Autonomous AI Moderation Platform
+# 🎬 Meri Awaaz (मेरी आवाज़)
+### Decentralized Video & Movie Streaming, Viral Shorts & Community Media Platform
+**Powered by Unlimited Telegram Cloud Storage, Zero AWS S3 Costs & Autonomous AI Security**
 
 <p align="center">
-  <img src="frontend/public/logo.png" alt="Meri Awaaz Logo" width="120" height="120" style="border-radius: 24px;" />
+  <img src="frontend/public/logo.png" alt="Meri Awaaz Logo" width="128" height="128" style="border-radius: 28px;" />
 </p>
 
 [![React](https://img.shields.io/badge/Frontend-React_18_%2B_Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
@@ -12,126 +13,122 @@
 [![Node.js](https://img.shields.io/badge/Backend-Node.js_%2B_Express-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
 [![MongoDB](https://img.shields.io/badge/Database-MongoDB_%2B_Mongoose-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com)
 [![Docker](https://img.shields.io/badge/Deployment-Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
-[![Security](https://img.shields.io/badge/Security-AI_Blue_Team_Engine-E11D48?style=for-the-badge&logo=shield&logoColor=white)](#-ai-blue-team-autonomous-security-engine)
+[![Security](https://img.shields.io/badge/Security-AI_Blue_Team_Engine-E11D48?style=for-the-badge&logo=shield&logoColor=white)](#-autonomous-ai-blue-team-defense)
 [![License](https://img.shields.io/badge/License-Apache_2.0-F59E0B?style=for-the-badge)](LICENSE)
 
 <p align="center">
-  <b>A modern blend of Instagram Reels + YouTube video delivery + LinkedIn creator networking.</b><br>
-  Built on a zero-cost decentralized Telegram bot storage cluster with real-time profile alerts, geo-fenced regional moderation, and autonomous AI threat defense.
+  <b>A complete, self-hostable alternative to Netflix + YouTube + Instagram Reels.</b><br>
+  Stream full-length 4K movies, anime series, viral shorts, and citizen journalism with zero cloud storage bills using a decentralized Telegram bot cluster, instant HTTP Range chunk streaming, real-time engagement alerts, and multi-tier moderation.
 </p>
 
-[Key Features](#-key-features) • [Screenshots Gallery](#-interface-showcase) • [Architecture](#-architecture--data-pipeline) • [Quickstart Guide](#-quickstart--docker-deployment) • [Security & RBAC](#-role-based-access-control-rbac)
+[Screenshots](#-visual-interface-tour) • [Streaming Architecture](#-how-it-works-zero-cost-movie--video-streaming) • [Key Features](#-core-capabilities) • [Quickstart Guide](#-quickstart--docker-deployment) • [Security & RBAC](#-role-based-access-control-rbac)
 
 </div>
 
 ---
 
-## 📸 Interface Showcase
+## 📸 Visual Interface Tour
 
-### 🎥 Viral Video Feed & Mobile Social Experience
+### 🎥 1. Video, Movie & Media Streaming Suite
 
-| News Feed & Reels Video Player | Creator Profile & Engagement | Interaction & Sharing |
+| Home Feed & Cinema Browse Grid | Movie & Video Watch Page (`/watch`) | Smart Video & Shorts Uploader (`/upload`) |
 | :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/fd17b52d-15d6-4906-b014-8df056c6833d" width="300" alt="News Feed & Video Player" /> | <img src="https://github.com/user-attachments/assets/3d6f4458-ea8c-40c5-8bf9-fe94abe412a1" width="300" alt="Creator Profile" /> | <img src="https://github.com/user-attachments/assets/2846bb1c-a3b4-4576-a337-2a31b095e825" width="300" alt="Interaction & Sharing" /> |
-| *Chunk-streamed high definition video reels with instant playback* | *LinkedIn-style creator profiles with view tracking* | *Community likes, comments, and fast sharing* |
-
-### 🏛️ Regional Moderation & Geo-Fenced Workflows
-
-| Geo-Fenced Moderator Inbox | Content Verification Workflow | Reporter Evidence Review |
-| :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/e7d05bd6-2845-4cde-9fba-3ce3548262bd" width="300" alt="Moderator Inbox" /> | <img src="https://github.com/user-attachments/assets/34c75e16-0eac-4dd1-8aa0-d022b8e404eb" width="300" alt="Verification Queue" /> | <img src="https://github.com/user-attachments/assets/ff7ad85b-dcae-4f60-9dbf-d4ff5818aa81" width="300" alt="Report Evidence" /> |
-| *City/State-restricted moderation queues* | *Single-click verification, strikes, or escalation* | *Community report triage and evidence evaluation* |
-
-### 👑 Super Admin Governance & AI Security Center
-
-| Master System Governance | User Sanctions & Permissions | Autonomous AI Threat Monitor |
-| :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/2008cd32-c210-458c-a6a1-9cf5a38f952d" width="300" alt="Super Admin Panel" /> | <img src="https://github.com/user-attachments/assets/d67be275-4f6e-4f32-a1fc-9efbeeeb9743" width="300" alt="User Management" /> | <img src="https://github.com/user-attachments/assets/27b753ae-63e6-46a6-bde7-6dc1b8de9c0b" width="300" alt="AI Threat Center" /> |
-| *Platform-wide storage quotas and bot cluster health* | *Role promotions, reputation audits & bans* | *Real-time risk scoring, anomaly detection & IP bans* |
+| <img src="https://github.com/user-attachments/assets/e7d05bd6-2845-4cde-9fba-3ce3548262bd" width="300" alt="Home Feed & Video Discovery" /> | <img src="https://github.com/user-attachments/assets/34c75e16-0eac-4dd1-8aa0-d022b8e404eb" width="300" alt="Cinema Watch Player" /> | <img src="https://github.com/user-attachments/assets/d67be275-4f6e-4f32-a1fc-9efbeeeb9743" width="300" alt="Smart Media Uploader" /> |
+| **Video & Movie Discovery Feed**: YouTube/Netflix-style browse grid featuring custom thumbnails, duration badges (`23:40`, `24:29`, `3:42`), author metadata, views, and regional location filters. | **Cinema Watch Player**: Full-width theater player (streaming 1080p anime/movies), channel follow, Like/Dislike, Share, Report, expandable metadata, and "Up Next" recommendation sidebar. | **Smart Uploader**: Automatic length detection (≤1 min automatically converts into vertical **Shorts**, >1 min publishes as standard **Movie/Video stream**), drag & drop up to 500MB with geo-tagging. |
 
 ---
 
-## 🚀 Key Features
+### 🌟 2. Creator Economy, Social Engagement & Real-Time Alerts
 
-### 1. 🎬 Instagram Reels + YouTube Video Delivery
-- High-performance chunk-based video streaming engine powered by HTTP Range requests.
-- Reduced initial load latency and zero-buffering playback across mobile and desktop clients.
-- Like, dislike, bookmark, and share citizen journalism stories directly from the feed.
-
-### 2. ⚡ Telegram Cloud Storage Cluster (Zero AWS S3 Costs)
-- Eliminates multi-thousand dollar monthly cloud media storage bills.
-- Videos, audio broadcasts, and user avatars are distributed across a pool of background Telegram Worker Bots.
-- Automated National and State storage tier routing with failover balancing.
-
-### 3. 🔔 Real-Time Profile & Engagement Alerts
-- **LinkedIn-Style Profile View Tracking**: When another authenticated user explores your creator profile, you instantly receive a real-time notification (`"User X viewed your profile"`).
-- Real-time updates for follows, video likes, moderation decisions, and system notices.
-
-### 4. 🏛️ Granular Role-Based Access Control (RBAC)
-- **👤 Guest Users**: Privacy-safe feed viewing without access to private user profiles or upload forms.
-- **🧑 Registered Citizens / Creators**: Upload stories, build channels, follow reporters, and manage notification feeds.
-- **🛡️ Regional Moderators**: Geofenced access restricted strictly to their assigned State and City jurisdictions. Review pending videos, reject fake news, or escalate to Super Admin.
-- **👑 Super Admin**: Full platform sovereignty, user promotions/demotions, strike management, storage cluster reconfiguration, and global ban actions.
-
-### 5. ⚖️ Moderator Accountability & Strike System
-- Automated oversight tracks moderator activity patterns.
-- If a moderator approves or rejects content maliciously or without valid reports:
-  - The system automatically flags the incident.
-  - Escalates the case to the Super Admin review queue.
-  - Permanently records strikes on the moderator profile to ensure transparent community trust.
-
-### 6. 🤖 AI Blue Team Autonomous Security Engine
-- Real-time intelligent behavioral analysis monitoring API access patterns.
-- Detects credential stuffing, scrapers, coordinated report spam, and privilege escalation probes.
-- Autonomous remediation: temporarily restricts high-risk accounts, applies dynamic rate limits, and triggers IP blocks.
+| Creator Channel Profile (`/profile`) | Moderator Reputation & Strikes Meter | Real-Time Notification Center (`/notifications`) |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/ff7ad85b-dcae-4f60-9dbf-d4ff5818aa81" width="300" alt="Creator Profile" /> | <img src="https://github.com/user-attachments/assets/27b753ae-63e6-46a6-bde7-6dc1b8de9c0b" width="300" alt="Moderator Accountability" /> | <img src="https://github.com/user-attachments/assets/2008cd32-c210-458c-a6a1-9cf5a38f952d" width="300" alt="Real-Time Notifications" /> |
+| **Creator Channel Hub**: Follower counter, Trust Score, strikes status, published verified video gallery with `VERIFIED` badges, bio, and creator monetization ("Buy me a coffee"). | **Moderator Accountability Meter**: Transparent public metrics showcasing Moderator Trust Score (35) and active strikes (1/3) to eliminate biased censorship. | **Real-Time Notification Hub**: Instant alerts for video approvals, follows, and LinkedIn-style profile view notifications (*"User X viewed your profile"*). |
 
 ---
 
-## 🏗️ Architecture & Data Pipeline
+### 🛡️ 3. Admin Governance, Analytics & System Control
+
+| Admin Analytics Dashboard (`/admin`) | Administrative Audit Logs | Global Platform Limits & Quotas |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/fd17b52d-15d6-4906-b014-8df056c6833d" width="300" alt="Admin Analytics Dashboard" /> | <img src="https://github.com/user-attachments/assets/3d6f4458-ea8c-40c5-8bf9-fe94abe412a1" width="300" alt="Administrative Audit Logs" /> | <img src="https://github.com/user-attachments/assets/2846bb1c-a3b4-4576-a337-2a31b095e825" width="300" alt="Global Platform Limits" /> |
+| **Admin Metrics Overview**: Real-time counters for Total Users, Verified Videos, Pending Posts, Video Views, 7-day upload trend charts, and geographic distribution by state. | **Immutable Audit Logs**: Chronological log tracking all moderator actions, escalations, and overturns (`OVERTURN MOD_REJECTION`, `ESCALATE POST_SUSPICIOUS_REASON`). | **Platform Limits & Workers**: Master settings to configure daily video upload quotas per user, rate limits, and Telegram storage worker bot pools. |
+
+---
+
+## ⚡ How It Works: Zero-Cost Movie & Video Streaming
+
+Traditional video portals face massive cloud bills: AWS S3 storage fees, Cloudflare bandwidth charges, and expensive CDN egress. **Meri Awaaz solves this completely**:
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    Frontend Application                     │
-│        React 18 • TypeScript • Tailwind CSS • Vite          │
-└──────────────────────────────┬──────────────────────────────┘
-                               │
-┌──────────────────────────────▼──────────────────────────────┐
-│                    API Gateway & Routing                    │
-│   Rate Limiter • JWT Auth Guards • Security Audit Logger    │
-└──────────────────────────────┬──────────────────────────────┘
-                               │
-               ┌───────────────┴───────────────┐
-               ▼                               ▼
-┌──────────────────────────────┐ ┌──────────────────────────────┐
-│      Core Services           │ │    AI Blue Team Defense      │
-│ • /api/auth    • /api/social │ │ • Behavioral anomaly monitor │
-│ • /api/profile • /api/notify │ │ • Automated threat scoring   │
-│ • /api/users   • /api/admin  │ │ • Dynamic ban & rate limiter │
-└──────────────┬───────────────┘ └──────────────┬───────────────┘
-               │                                │
-       ┌───────┴───────────────┬────────────────┘
-       ▼                       ▼
-┌──────────────┐       ┌──────────────────────────────┐
-│   MongoDB    │       │ Telegram Cloud Storage Pool  │
-│  (Mongoose)  │       │ • Multi-Bot Worker Cluster   │
-│ Users • News │       │ • National & State Tiers     │
-│ Moderation   │       │ • Video Chunk Streaming Svc  │
-└──────────────┘       └──────────────────────────────┘
+ ┌─────────────────────────────────────────────────────────────┐
+ │                Client Browser (Watch Page)                  │
+ │      HTML5 Video Player • HTTP Range Requests (206)         │
+ └──────────────────────────────┬──────────────────────────────┘
+                                │
+                                ▼
+ ┌─────────────────────────────────────────────────────────────┐
+ │                    Node.js Streaming Engine                 │
+ │   • Slices video requests into 512KB - 2MB byte-range chunks│
+ │   • Zero disk caching required on application server        │
+ └──────────────────────────────┬──────────────────────────────┘
+                                │
+               ┌────────────────┴────────────────┐
+               ▼                                 ▼
+ ┌───────────────────────────────┐ ┌───────────────────────────┐
+ │ National Telegram Worker Pool │ │ State Storage Worker Pool │
+ │ • WorkerBot1 (Auto-balancing) │ │ • WorkerBot3 (Failover)   │
+ │ • WorkerBot2 (Parallel fetch) │ │ • WorkerBot4 (CDN Relay)  │
+ └───────────────────────────────┘ └───────────────────────────┘
 ```
+
+1. **Upload Pipeline**: When a movie, anime episode, or news reel is uploaded, the backend streams the file directly into a private Telegram Channel using a round-robin pool of helper Telegram Bots.
+2. **Chunk-Streaming Delivery**: When a user clicks play, the client issues HTTP `Range: bytes=start-end` requests. The backend fetches *only the requested chunk* from Telegram's data centers, delivering seamless seek and zero-buffering playback without ever downloading the full movie file onto server disk.
+
+---
+
+## 🚀 Core Capabilities
+
+### 1. 🍿 Multi-Genre Movie & Cinema Streaming
+- Turn Meri Awaaz into an on-demand OTT movie and anime streaming hub.
+- Full support for HD/1080p long-form videos with embedded metadata, custom title cards, and description drawers.
+- Smart "Up Next" sidebar queue to keep viewers engaged across series episodes.
+
+### 2. ⚡ Auto-Detecting Viral Shorts & Reels
+- Automatic duration classifier: videos of **1 minute or less** are categorized into vertical **Quick Shorts**.
+- Dedicated Shorts navigation tab optimized for fast-scrolling reels and mobile devices.
+
+### 3. 👥 Social Networking & Profile Tracking
+- **Profile Visitor Alerts**: Integrated LinkedIn-style notification system: receive instant notifications whenever another member visits your creator profile.
+- Creator tipping: native support for external creator monetization buttons ("Buy me a coffee").
+- Social interactions: Like, dislike counters, follower tracking, and comment threads.
+
+### 4. 🗺️ Citizen Journalism & Geo-Tagged Heatmaps
+- Explore videos and local news stories by State, District, and City.
+- Interactive **Live Heatmap** displaying viral video density across geographic territories.
+- Community reporting: users can flag fake news, harassment, or abusive uploads with direct evidence review.
+
+### 5. 🏛️ Geo-Fenced Moderator Governance & Strike Accountability
+- **Geofenced Moderator Scopes**: Regional moderators can only approve or reject content belonging to their assigned State/City.
+- **Automated Anti-Abuse Strikes**: Questionable approvals or malicious rejections are automatically escalated to the Super Admin; moderators receive permanent strikes (e.g. `1/3 Strikes`) displayed on their profile.
+
+### 6. 🤖 Autonomous AI Blue Team Defense
+- Real-time intelligent behavioral guard monitoring API anomalies and abuse vectors.
+- Automated rate limiting, temporary account suspension, and dynamic IP blacklisting against credential stuffing and scraper bots.
 
 ---
 
 ## 🛠️ Quickstart & Docker Deployment
 
-Deploy the entire stack with Docker Compose in under 2 minutes:
+Deploy the full stack (Frontend + Backend + MongoDB) in under 2 minutes:
 
 ### Prerequisites
 - [Docker](https://docs.docker.com/get-docker/) & [Docker Compose](https://docs.docker.com/compose/)
-- [Node.js 18+](https://nodejs.org/) (for local bare-metal development)
+- [Node.js 18+](https://nodejs.org/) (if running bare-metal)
 
 ---
 
-### Method A: One-Command Docker Deployment (Recommended)
+### Option 1: Docker Compose (Recommended)
 
 1. **Clone the Repository**:
    ```bash
@@ -139,70 +136,71 @@ Deploy the entire stack with Docker Compose in under 2 minutes:
    cd Meri-awaaz-News-Portal
    ```
 
-2. **Configure Environment**:
+2. **Configure Environment Variables**:
    ```bash
    cp backend/.env.example backend/.env
-   # Edit backend/.env to customize your JWT SECRET and Super Admin password
+   # Customize JWT Secret and Super Admin credentials in backend/.env
    ```
 
-3. **Start All Services**:
+3. **Launch Stack**:
    ```bash
    docker compose up --build -d
    ```
 
-4. **Access the Portal**:
-   - **Frontend App**: `http://localhost:5173`
+4. **Open in Browser**:
+   - **Frontend Video Portal**: `http://localhost:5173`
    - **Backend API**: `http://localhost:3004`
    - **MongoDB**: `localhost:27017`
 
 ---
 
-### Method B: Manual Bare-Metal Development Setup
+### Option 2: Bare-Metal Local Development
 
-#### 1. Start MongoDB
-Ensure MongoDB is running locally on port `27017`:
-```bash
-mongod --dbpath ./data/db
-```
-
-#### 2. Backend Setup
+#### 1. Backend Service
 ```bash
 cd backend
 npm install
 cp .env.example .env
 npm run dev
-# Backend starts on http://localhost:3004
+# Starts on http://localhost:3004
 ```
 
-#### 3. Frontend Setup
+#### 2. Frontend Web App
 ```bash
 cd ../frontend
 npm install
 npm run dev
-# Frontend starts on http://localhost:5173
+# Starts on http://localhost:5173
 ```
+
+---
+
+## 🔐 Role-Based Access Control (RBAC)
+
+| Role | Browse & Watch | Upload Shorts/Movies | Regional Moderation | AI Threat Center | Master Admin |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Guest User** | ✅ (Public Feed) | ❌ | ❌ | ❌ | ❌ |
+| **Registered User** | ✅ | ✅ (Subject to daily quota) | ❌ | ❌ | ❌ |
+| **Regional Moderator** | ✅ | ✅ | ✅ (Assigned State/City only) | ❌ | ❌ |
+| **Super Admin** | ✅ | ✅ | ✅ (Global Overturn) | ✅ | ✅ |
 
 ---
 
 ## 🔒 Security & Safe Harbor
 
-Meri Awaaz implements comprehensive zero-trust defenses:
-
-- **JWT Authentication**: Short-lived access tokens with secure refresh token rotation.
-- **Strict Input Validation**: Protection against NoSQL query injections, prototype pollution, and XSS.
-- **Rate Limiting**: Tiered endpoint rate limiters powered by Redis / memory caches.
-- **Private Vulnerability Reporting**: Security researchers can submit confidential disclosures directly via [GitHub Security Advisories](https://github.com/sentinal404/Meri-awaaz-News-Portal/security/advisories/new).
-- Full details in our [SECURITY.md](SECURITY.md).
+Meri Awaaz follows strict responsible disclosure principles:
+- **Private Vulnerability Reporting**: Enabled on this repository. Report sensitive issues (RCE, LFI, Token leakage) confidentially via [Security Advisories](https://github.com/sentinal404/Meri-awaaz-News-Portal/security/advisories/new).
+- Complete policies and bug bounty disclosures in our [SECURITY.md](SECURITY.md).
 
 ---
 
 ## 📜 License
 
-This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
+Licensed under the Apache License 2.0. See [LICENSE](LICENSE) for details.
 
 ---
 
 <div align="center">
-  <b>Meri Awaaz (मेरी आवाज़)</b> — Empowering Communities Through Truth & Technology<br>
+  <b>Meri Awaaz (मेरी आवाज़)</b> — Decentralized Video, Cinema & Community Media<br>
   <i>Crafted with ❤️ by <a href="https://github.com/sentinal404">Rishi Shakya</a></i>
 </div>

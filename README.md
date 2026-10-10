@@ -14,6 +14,8 @@
 [![MongoDB](https://img.shields.io/badge/Database-MongoDB_%2B_Mongoose-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com)
 [![Docker](https://img.shields.io/badge/Deployment-Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
 [![Security](https://img.shields.io/badge/Security-AI_Blue_Team_Engine-E11D48?style=for-the-badge&logo=shield&logoColor=white)](#-autonomous-ai-blue-team-defense)
+[![Vibe Coding](https://img.shields.io/badge/Crafted_With-Vibe_Coding-FF4081?style=for-the-badge&logo=sparkles&logoColor=white)](#-crafted-with-vibe-coding)
+[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn_rishishakya-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rishishakya)
 [![License](https://img.shields.io/badge/License-Apache_2.0-F59E0B?style=for-the-badge)](LICENSE)
 
 <p align="center">
@@ -21,7 +23,7 @@
   Stream full-length 4K movies, anime series, viral shorts, and citizen journalism with zero cloud storage bills using a decentralized Telegram bot cluster, instant HTTP Range chunk streaming, real-time engagement alerts, and multi-tier moderation.
 </p>
 
-[Screenshots](#-visual-interface-tour) • [Streaming Architecture](#-how-it-works-zero-cost-movie--video-streaming) • [Key Features](#-core-capabilities) • [Quickstart Guide](#-quickstart--docker-deployment) • [Security & RBAC](#-role-based-access-control-rbac)
+[Screenshots](#-visual-interface-tour) • [Streaming Architecture](#-how-it-works-zero-cost-movie--video-streaming) • [Key Features](#-core-capabilities) • [Quickstart Guide](#-quickstart--docker-deployment) • [Security & RBAC](#-role-based-access-control-rbac) • [Connect on LinkedIn](https://www.linkedin.com/in/rishishakya)
 
 </div>
 
@@ -132,8 +134,8 @@ Deploy the full stack (Frontend + Backend + MongoDB) in under 2 minutes:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/sentinal404/Meri-awaaz-News-Portal.git
-   cd Meri-awaaz-News-Portal
+   git clone https://github.com/sentinal404/MeriAwaaz-Streaming-Platform.git
+   cd MeriAwaaz-Streaming-Platform
    ```
 
 2. **Configure Environment Variables**:
@@ -186,10 +188,29 @@ npm run dev
 
 ---
 
+## 💖 Crafted with Vibe Coding
+
+Meri Awaaz was developed end-to-end using pure **Vibe Coding** — an iterative, high-velocity paradigm combining creative product vision with autonomous agentic intelligence.
+
+- **100% Fully Working & Tested**: Full-stack pipeline verified end-to-end with active MongoDB schemas, Express HTTP 206 chunk-streaming endpoints, and React/Tailwind interfaces.
+- **Production-Ready Architecture**: Multi-bot Telegram cluster balancing, range request video slicing, and autonomous AI threat security are ready for deployment out of the box.
+
+---
+
+## 🌟 Support & Connect
+
+If you like this project or find it useful, please consider supporting it:
+
+- ⭐ **Star this repository!** It helps more developers discover free, decentralized media streaming architectures.
+- 🤝 **Connect with me on LinkedIn**: [**Rishi Shakya**](https://www.linkedin.com/in/rishishakya) (Let's talk tech, cloud architectures & vibe coding!)
+- 🐛 **Security Disclosures**: Review [SECURITY.md](SECURITY.md) to report vulnerabilities privately.
+
+---
+
 ## 🔒 Security & Safe Harbor
 
 Meri Awaaz follows strict responsible disclosure principles:
-- **Private Vulnerability Reporting**: Enabled on this repository. Report sensitive issues (RCE, LFI, Token leakage) confidentially via [Security Advisories](https://github.com/sentinal404/Meri-awaaz-News-Portal/security/advisories/new).
+- **Private Vulnerability Reporting**: Enabled on this repository. Report sensitive issues (RCE, LFI, Token leakage) confidentially via [Security Advisories](https://github.com/sentinal404/MeriAwaaz-Streaming-Platform/security/advisories/new).
 - Complete policies and bug bounty disclosures in our [SECURITY.md](SECURITY.md).
 
 ---
@@ -202,5 +223,5 @@ Licensed under the Apache License 2.0. See [LICENSE](LICENSE) for details.
 
 <div align="center">
   <b>Meri Awaaz (मेरी आवाज़)</b> — Decentralized Video, Cinema & Community Media<br>
-  <i>Crafted with ❤️ by <a href="https://github.com/sentinal404">Rishi Shakya</a></i>
+  <i>Crafted with ❤️ by <a href="https://github.com/sentinal404">Rishi Shakya</a> • <a href="https://www.linkedin.com/in/rishishakya">LinkedIn</a></i>
 </div>
